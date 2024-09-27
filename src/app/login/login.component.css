@@ -1,0 +1,26 @@
+.login-card {
+    width: 300px; /* Larghezza fissa per la scheda di login */
+    margin: auto; /* Centra la scheda nella pagina */
+    margin-top: 100px; /* Spazio sopra la scheda */
+    padding: 20px; /* Padding interno per la scheda */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombra leggera per un aspetto più elegante */
+    border-radius: 8px; /* Angoli arrotondati */
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Assicurati che non ci sia un / qui */
+}
+
+  
+  mat-form-field {
+    width: 100%; 
+  }
+  
+  button {
+    width: 100%; 
+  }
+  
